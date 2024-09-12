@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'flutter/day002/ders2_text_widget.dart';
+import 'flutter/day003/ders3_scaffold.dart';
 
 void main() {
   runApp(const MyApp());
@@ -8,19 +8,16 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-        
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Ders2TextWidget(),
+      home: Ders3Scaffold(),
     );
   }
 }
-

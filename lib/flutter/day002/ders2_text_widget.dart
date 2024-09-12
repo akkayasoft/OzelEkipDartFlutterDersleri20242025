@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import '../widgets/title_text.dart';
 
 class Ders2TextWidget extends StatelessWidget {
+  const Ders2TextWidget({super.key});
+
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
@@ -20,7 +23,7 @@ class Ders2TextWidget extends StatelessWidget {
               title: "o yüzden erken kalktım",
             ),
             TitleText(
-              title: "sizede teşekkür ederim",
+              title: "sizeden teşekkür ederim",
             ),
           ],
         ),
@@ -29,29 +32,3 @@ class Ders2TextWidget extends StatelessWidget {
   }
 }
 
-class TitleText extends StatelessWidget {
-  final String title;
-  const TitleText({
-    required this.title,
-    super.key,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return Text(
-      title,
-      maxLines: 2,
-      textAlign: TextAlign.center,
-      overflow: TextOverflow.ellipsis,
-      style: const TextStyle(
-        color: Colors.pink,
-        fontSize: 24,
-        fontWeight: FontWeight.bold,
-        fontStyle: FontStyle.italic,
-        decoration: TextDecoration.underline,
-        decorationColor: Colors.blue,
-        decorationStyle: TextDecorationStyle.dashed,
-      ),
-    );
-  }
-}
