@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'flutter/day003/ders3_scaffold.dart';
+import 'flutter/day004/ders4_butonlar.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Ders3Scaffold(),
+      home: const Ders4Butonlar(),
     );
   }
 }
