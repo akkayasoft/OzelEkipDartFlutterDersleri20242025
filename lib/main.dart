@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'flutter/day004/ders4_butonlar.dart';
+import 'flutter/day005/ders5_resim_islemleri.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Ders4Butonlar(),
+      home: const Ders5ResimIslemleri(),
     );
   }
 }

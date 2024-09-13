@@ -9,24 +9,24 @@ class Ders4Butonlar extends StatelessWidget {
       appBar: AppBar(
         leading: IconButton(
           onPressed: () {},
-          icon: Icon(Icons.person),
+          icon: const Icon(Icons.person),
         ),
         elevation: 0,
         backgroundColor: Colors.blueAccent,
         centerTitle: true,
-        title: Text("Butonlar"),
+        title: const Text("Butonlar"),
         actions: [
           IconButton(
             onPressed: () {},
-            icon: Icon(Icons.notifications),
+            icon: const Icon(Icons.notifications),
           ),
           IconButton(
             onPressed: () {},
-            icon: Icon(Icons.settings),
+            icon: const Icon(Icons.settings),
           ),
           IconButton(
             onPressed: () {},
-            icon: Icon(Icons.search),
+            icon: const Icon(Icons.search),
           ),
         ],
       ),
@@ -42,19 +42,19 @@ class Ders4Butonlar extends StatelessWidget {
               onPressed: () {
                 print("Elevated Button");
               },
-              child: Text("Elevated Button"),
+              child: const Text("Elevated Button"),
             ),
             OutlinedButton(
               style: OutlinedButton.styleFrom(
                 backgroundColor: Colors.white,
                 foregroundColor: Colors.blueAccent,
-                side: BorderSide(
+                side: const BorderSide(
                   color: Colors.blueAccent,
                   width: 2,
                 ),
               ),
               onPressed: () {},
-              child: Text("Outlined Button"),
+              child: const Text("Outlined Button"),
             ),
             TextButton(
               style: TextButton.styleFrom(
@@ -62,7 +62,7 @@ class Ders4Butonlar extends StatelessWidget {
                 foregroundColor: Colors.blueAccent,
               ),
               onPressed: () {},
-              child: Text("Text Button"),
+              child: const Text("Text Button"),
             ),
             IconButton(
               style: IconButton.styleFrom(
@@ -70,21 +70,21 @@ class Ders4Butonlar extends StatelessWidget {
                 foregroundColor: Colors.yellow,
               ),
               onPressed: () {},
-              icon: Icon(Icons.add),
+              icon: const Icon(Icons.add),
             ),
             FloatingActionButton(
               backgroundColor: Colors.red,
               foregroundColor: Colors.yellow,
               onPressed: () {},
-              child: Icon(Icons.add),
+              child: const Icon(Icons.add),
             ),
             FloatingActionButton.extended(
               
               backgroundColor: Colors.blue,
               foregroundColor: Colors.yellow,
               onPressed: () {},
-              icon: Icon(Icons.add),
-              label: Text("Floating Action Button"),
+              icon: const Icon(Icons.add),
+              label: const Text("Floating Action Button"),
             ),
 
           ],

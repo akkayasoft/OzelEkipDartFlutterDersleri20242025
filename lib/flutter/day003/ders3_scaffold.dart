@@ -18,15 +18,15 @@ class Ders3Scaffold extends StatelessWidget {
       body: const Center(
         child: TitleText(title: "Scaffold"),
       ),
-      floatingActionButton: FloatingButon(),
-      drawer: Cekmece(),
+      floatingActionButton: const FloatingButon(),
+      drawer: const Cekmece(),
       // endDrawer: Drawer(
       //   backgroundColor: Colors.yellow.shade200,
       //   child: const Center(
       //     child: TitleText(title: "EndDrawer"),
       //   ),
       // ),
-      bottomNavigationBar: AltMenu(),
+      bottomNavigationBar: const AltMenu(),
     );
   }
 }
